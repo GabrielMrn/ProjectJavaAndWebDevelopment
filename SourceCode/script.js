@@ -347,6 +347,7 @@ function fetchAndDisplayScores(playerId) {
 
             top10.forEach(player => {
                 const li = document.createElement("li");
+                li.classList.add("score-entry");
                 li.textContent = `${player.name}: ${player.score}`;
                 if (player.id === playerId) {
                     li.style.fontWeight = "bold";

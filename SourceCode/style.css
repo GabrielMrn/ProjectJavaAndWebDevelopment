@@ -72,3 +72,14 @@ button {
     width: 100%;
     padding: 10px 0;
 }
+
+#topScores {
+    list-style-position: inside;
+    padding: 0;
+    text-align: center;
+}
+
+.score-entry {
+    display: list-item;
+    text-align: center;
+}

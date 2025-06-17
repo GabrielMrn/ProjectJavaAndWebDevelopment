@@ -39,34 +39,11 @@
     </div>
 
     <!-- Display the scoreboard when game over -->
-    <div id="scoreboard" style="
-        display: none;
-        color: #303032;
-        text-align: center;
-        background: white;
-        padding: 5vw 4vw;
-        border: 3px solid #303032;
-        box-shadow: 0 0 20px rgba(0,0,0,0.5);
-        max-width: 90vw;
-        width: 60%;
-        max-height: 80vh;
-        overflow-y: auto;
-        z-index: 999;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        box-sizing: border-box;
-    ">
+    <div id="scoreboard">
         <h2>🏆 Top 10 Scores</h2>
         <ol id="topScores"></ol>
         <p id="playerRank"></p>
-        <button id="scoreboardStartButton" style="
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 1em;
-            font-weight: bold;
-        ">Start New Game</button>
+        <button id="scoreboardStartButton">Start New Game</button>
     </div>
     <script src="script.js"></script>
 </body>

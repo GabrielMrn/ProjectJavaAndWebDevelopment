@@ -83,3 +83,30 @@ button {
     display: list-item;
     text-align: center;
 }
+
+#scoreboard {
+    display: none;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    padding: 5vw 4vw;
+    border: 3px solid #303032;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    max-width: 90vw;
+    width: 60%;
+    max-height: 80vh;
+    overflow-y: auto;
+    z-index: 999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+#scoreBoardStartButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+}

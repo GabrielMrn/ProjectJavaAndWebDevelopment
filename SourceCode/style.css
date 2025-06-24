@@ -121,3 +121,7 @@ button {
     justify-content: center;
     z-index: 9999;
 }
+
+#playerRank {
+    color: red;
+}
